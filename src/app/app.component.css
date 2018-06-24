@@ -1,0 +1,78 @@
+.container {
+    padding-left: 13%;
+    padding-right: 13%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.child {
+    width: 24%;
+    border: 1px solid #cccccc;
+}
+
+.child-single {
+    width: 100%;
+}
+
+span {
+    text-align: center;
+}
+
+/* On screens that are 1366px wide or less */
+@media screen and (max-width: 1366px) {
+    .container {
+        padding-left: 10.5%;
+        padding-right: 10.5%;
+    }
+}
+
+/* On screens that are 1024px wide or less */
+@media screen and (max-width: 1024px) {
+    .container {
+        padding-left:15%;
+        padding-right:15%;
+    }
+
+    .container-single {
+        padding-left:40%;
+        padding-right:40%;
+    }
+
+    .child {
+        width: 33%;
+    }
+
+    .child-single {
+        width: 100%;
+    }
+}
+/* On screens that are 768px wide or less */
+@media screen and (max-width: 768px) {
+    .container {
+        padding-left:3%;
+        padding-right:3%;
+    }
+
+    .child {
+        width: 33%;
+    }
+
+    .child-single {
+        width: 100%;
+    }
+}
+/* On screens that are 375px wide or less */
+@media screen and (max-width: 375px) {
+    .container {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    .child {
+        width: 49%;
+    }
+
+    .child-single {
+        width: 100%;
+    }
+}

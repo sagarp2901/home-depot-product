@@ -1,0 +1,10 @@
+<h1>
+  <span>
+    <p> Welcome to the application, here is where your main code will lie </p>
+  </span>
+
+  <button class="hdca-button hdca-product-box__main-purchase-action-item hdca-button--secondary hdca-button--large" (click)="switch()">Switch Single</button>
+  <div class="container" [ngClass]="{ 'container-single': singleItem}">
+    <app-product-box class="child" [ngClass]="{ 'child-single container-single': singleItem}" *ngFor="let amount of amountArray(amount)"></app-product-box>
+  </div>
+</h1>

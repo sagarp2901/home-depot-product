@@ -1,0 +1,40 @@
+.product-image-box{
+    display: grid;
+    background-color: white;
+}
+.compare-checkbox{
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+.product-image {
+    justify-self: center;
+    margin-top: 1rem;
+}
+
+img {
+    width: 100%
+}
+
+
+/* On screens that are 1024px wide or less */
+@media screen and (max-width: 1024px) {
+    .container {
+        padding-left:15%;
+        padding-right:15%;
+    }
+    img {
+        width: 90%
+    }
+}
+/* On screens that are 768px wide or less */
+@media screen and (max-width: 768px) {
+    img {
+        width: 90%
+    }
+}
+/* On screens that are 375px wide or less */
+@media screen and (max-width: 375px) {
+    img {
+        width: 90%
+    }
+}
